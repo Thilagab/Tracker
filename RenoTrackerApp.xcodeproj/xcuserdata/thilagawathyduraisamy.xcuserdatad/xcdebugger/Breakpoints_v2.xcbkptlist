@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D60CC97A-C77B-47F3-A790-9F9E8501E8ED"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C91485B-5A08-4AF0-B3E1-6C4D7F96D464"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenoTrackerApp/Model/RenavationDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "load(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "931FF73F-5D97-432B-862C-4C56D750CCF6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenoTrackerApp/Model/RenavationDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "load(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "931FF73F-5D97-432B-862C-4C56D750CCF6 - 49c5ca16406f2ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RenoTrackerApp.RenovationDataManager.load(completionHandler: (Swift.Array&lt;RenoTrackerApp.RenovationProject&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RenoTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FreeAgent%20D/Swift_Project/RenoTrackerApp/RenoTrackerApp/Model/RenavationDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "931FF73F-5D97-432B-862C-4C56D750CCF6 - 2ffd409308fdf881"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in RenoTrackerApp.RenovationDataManager.load(completionHandler: (Swift.Array&lt;RenoTrackerApp.RenovationProject&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RenoTrackerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/FreeAgent%20D/Swift_Project/RenoTrackerApp/RenoTrackerApp/Model/RenavationDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCAA8FD2-9BC2-4434-8F14-8963DF5F3ED8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenoTrackerApp/InspectionLogView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

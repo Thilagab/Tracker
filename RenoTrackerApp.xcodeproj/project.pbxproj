@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09AFEE282A774DAE00E85442 /* SnowFlake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFEE272A774DAE00E85442 /* SnowFlake.swift */; };
+		09AFEE2A2A788AF100E85442 /* SnowflakeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFEE292A788AF100E85442 /* SnowflakeProgressView.swift */; };
+		09AFEE2C2A7BBA1700E85442 /* SnowflakeProg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFEE2B2A7BBA1700E85442 /* SnowflakeProg.swift */; };
+		09B452662A4D044F00F2BBF5 /* projects.json in Sources */ = {isa = PBXBuildFile; fileRef = 09B452682A4D044F00F2BBF5 /* projects.json */; };
+		09B452692A4D04D500F2BBF5 /* projects.json in Resources */ = {isa = PBXBuildFile; fileRef = 09B452682A4D044F00F2BBF5 /* projects.json */; };
+		09C5AB612A8C553C008C0F39 /* RenovationProject + Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5AB602A8C553C008C0F39 /* RenovationProject + Swift.swift */; };
+		09D33C032A807300004AF414 /* renovationLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D33C022A807300004AF414 /* renovationLog.swift */; };
+		09F2C9222A41C2C90099CD66 /* RenovationData.json in Resources */ = {isa = PBXBuildFile; fileRef = 09F2C9212A41C2C90099CD66 /* RenovationData.json */; };
+		30EC063C2A26BE01003727FD /* RenoTrackerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC063B2A26BE01003727FD /* RenoTrackerAppApp.swift */; };
+		30EC063E2A26BE01003727FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC063D2A26BE01003727FD /* ContentView.swift */; };
+		30EC06402A26BE02003727FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EC063F2A26BE02003727FD /* Assets.xcassets */; };
+		30EC06432A26BE02003727FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EC06422A26BE02003727FD /* Preview Assets.xcassets */; };
+		30EC064A2A26BE93003727FD /* RenovationProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC06492A26BE93003727FD /* RenovationProjectView.swift */; };
+		30EC064C2A26BEA6003727FD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC064B2A26BEA6003727FD /* DetailView.swift */; };
+		30EC064E2A26BEC8003727FD /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC064D2A26BEC8003727FD /* EditView.swift */; };
+		30EC06502A26BEDB003727FD /* InspectionLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC064F2A26BEDB003727FD /* InspectionLogView.swift */; };
+		30EC06522A301D07003727FD /* RenovationProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC06512A301D07003727FD /* RenovationProjectRow.swift */; };
+		30EC06552A37E5C8003727FD /* RenovationProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC06542A37E5C8003727FD /* RenovationProject.swift */; };
+		30EC065D2A3A9F18003727FD /* RenovationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC065C2A3A9F18003727FD /* RenovationDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09AFEE272A774DAE00E85442 /* SnowFlake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowFlake.swift; sourceTree = "<group>"; };
+		09AFEE292A788AF100E85442 /* SnowflakeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowflakeProgressView.swift; sourceTree = "<group>"; };
+		09AFEE2B2A7BBA1700E85442 /* SnowflakeProg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowflakeProg.swift; sourceTree = "<group>"; };
+		09B452672A4D044F00F2BBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/projects.json; sourceTree = "<group>"; };
+		09C5AB602A8C553C008C0F39 /* RenovationProject + Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RenovationProject + Swift.swift"; sourceTree = "<group>"; };
+		09D33C022A807300004AF414 /* renovationLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renovationLog.swift; sourceTree = "<group>"; };
+		09F2C9212A41C2C90099CD66 /* RenovationData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RenovationData.json; sourceTree = "<group>"; };
+		30EC06382A26BE01003727FD /* RenoTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenoTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EC063B2A26BE01003727FD /* RenoTrackerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenoTrackerAppApp.swift; sourceTree = "<group>"; };
+		30EC063D2A26BE01003727FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30EC063F2A26BE02003727FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30EC06422A26BE02003727FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30EC06492A26BE93003727FD /* RenovationProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationProjectView.swift; sourceTree = "<group>"; };
+		30EC064B2A26BEA6003727FD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		30EC064D2A26BEC8003727FD /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		30EC064F2A26BEDB003727FD /* InspectionLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionLogView.swift; sourceTree = "<group>"; };
+		30EC06512A301D07003727FD /* RenovationProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationProjectRow.swift; sourceTree = "<group>"; };
+		30EC06542A37E5C8003727FD /* RenovationProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationProject.swift; sourceTree = "<group>"; };
+		30EC065C2A3A9F18003727FD /* RenovationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EC06352A26BE01003727FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EC062F2A26BE01003727FD = {
+			isa = PBXGroup;
+			children = (
+				30EC063A2A26BE01003727FD /* RenoTrackerApp */,
+				30EC06392A26BE01003727FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EC06392A26BE01003727FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EC06382A26BE01003727FD /* RenoTrackerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EC063A2A26BE01003727FD /* RenoTrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				30EC063B2A26BE01003727FD /* RenoTrackerAppApp.swift */,
+				30EC063D2A26BE01003727FD /* ContentView.swift */,
+				09AFEE272A774DAE00E85442 /* SnowFlake.swift */,
+				09AFEE292A788AF100E85442 /* SnowflakeProgressView.swift */,
+				09AFEE2B2A7BBA1700E85442 /* SnowflakeProg.swift */,
+				30EC06492A26BE93003727FD /* RenovationProjectView.swift */,
+				30EC06512A301D07003727FD /* RenovationProjectRow.swift */,
+				30EC064B2A26BEA6003727FD /* DetailView.swift */,
+				30EC064D2A26BEC8003727FD /* EditView.swift */,
+				30EC064F2A26BEDB003727FD /* InspectionLogView.swift */,
+				30EC06532A37E5A4003727FD /* Model */,
+				30EC063F2A26BE02003727FD /* Assets.xcassets */,
+				30EC06412A26BE02003727FD /* Preview Content */,
+			);
+			path = RenoTrackerApp;
+			sourceTree = "<group>";
+		};
+		30EC06412A26BE02003727FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30EC06422A26BE02003727FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30EC06532A37E5A4003727FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30EC06542A37E5C8003727FD /* RenovationProject.swift */,
+				09C5AB602A8C553C008C0F39 /* RenovationProject + Swift.swift */,
+				09D33C022A807300004AF414 /* renovationLog.swift */,
+				09F2C9212A41C2C90099CD66 /* RenovationData.json */,
+				30EC065C2A3A9F18003727FD /* RenovationDataManager.swift */,
+				09B452682A4D044F00F2BBF5 /* projects.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EC06372A26BE01003727FD /* RenoTrackerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EC06462A26BE02003727FD /* Build configuration list for PBXNativeTarget "RenoTrackerApp" */;
+			buildPhases = (
+				30EC06342A26BE01003727FD /* Sources */,
+				30EC06352A26BE01003727FD /* Frameworks */,
+				30EC06362A26BE01003727FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RenoTrackerApp;
+			productName = RenoTrackerApp;
+			productReference = 30EC06382A26BE01003727FD /* RenoTrackerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EC06302A26BE01003727FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					30EC06372A26BE01003727FD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 30EC06332A26BE01003727FD /* Build configuration list for PBXProject "RenoTrackerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30EC062F2A26BE01003727FD;
+			productRefGroup = 30EC06392A26BE01003727FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EC06372A26BE01003727FD /* RenoTrackerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EC06362A26BE01003727FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B452692A4D04D500F2BBF5 /* projects.json in Resources */,
+				09F2C9222A41C2C90099CD66 /* RenovationData.json in Resources */,
+				30EC06432A26BE02003727FD /* Preview Assets.xcassets in Resources */,
+				30EC06402A26BE02003727FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EC06342A26BE01003727FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AFEE2A2A788AF100E85442 /* SnowflakeProgressView.swift in Sources */,
+				30EC063E2A26BE01003727FD /* ContentView.swift in Sources */,
+				09AFEE2C2A7BBA1700E85442 /* SnowflakeProg.swift in Sources */,
+				09C5AB612A8C553C008C0F39 /* RenovationProject + Swift.swift in Sources */,
+				30EC064E2A26BEC8003727FD /* EditView.swift in Sources */,
+				30EC064C2A26BEA6003727FD /* DetailView.swift in Sources */,
+				30EC06502A26BEDB003727FD /* InspectionLogView.swift in Sources */,
+				30EC06522A301D07003727FD /* RenovationProjectRow.swift in Sources */,
+				09AFEE282A774DAE00E85442 /* SnowFlake.swift in Sources */,
+				30EC065D2A3A9F18003727FD /* RenovationDataManager.swift in Sources */,
+				09D33C032A807300004AF414 /* renovationLog.swift in Sources */,
+				09B452662A4D044F00F2BBF5 /* projects.json in Sources */,
+				30EC064A2A26BE93003727FD /* RenovationProjectView.swift in Sources */,
+				30EC06552A37E5C8003727FD /* RenovationProject.swift in Sources */,
+				30EC063C2A26BE01003727FD /* RenoTrackerAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09B452682A4D044F00F2BBF5 /* projects.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B452672A4D044F00F2BBF5 /* Base */,
+			);
+			name = projects.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30EC06442A26BE02003727FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30EC06452A26BE02003727FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30EC06472A26BE02003727FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RenoTrackerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SelfLearn.RenoTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30EC06482A26BE02003727FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RenoTrackerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SelfLearn.RenoTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EC06332A26BE01003727FD /* Build configuration list for PBXProject "RenoTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EC06442A26BE02003727FD /* Debug */,
+				30EC06452A26BE02003727FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EC06462A26BE02003727FD /* Build configuration list for PBXNativeTarget "RenoTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EC06472A26BE02003727FD /* Debug */,
+				30EC06482A26BE02003727FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EC06302A26BE01003727FD /* Project object */;
+}

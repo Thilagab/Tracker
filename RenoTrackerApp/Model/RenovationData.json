@@ -1,0 +1,71 @@
+[
+  {
+    "projectNumber" : 2021001,
+    "renovationArea" : "Front Lobby",
+    "imageName" : "front-lobby",
+    "dueDate" : "2024-08-01",
+    "lastProgressUpdate" : "2021-05-28",
+    "workQuality" : "Good",
+    "isFlagged": false,
+    "punchList": [
+				{ "task" : "Remodel front desk",
+				  "status" : "Complete"
+
+				},
+				 { "task" : "Retail entry",
+				  "status" : "Complete"
+
+				},
+				{ "task" : "Replace light fixtures",
+				  "status" : "Complete"
+
+				},
+				{ "task" : "Paint walls",
+				  "status" : "In progress"
+
+				},
+				{ "task" : "Hang new artwork",
+				  "status" : "Not started"
+
+				}
+				],
+                "budgetAmountAllocated" : 25000,
+                "budgetSpentToDate" : 18350,
+                "inspectionLog": [
+                    {
+                        "entryDate" : "2021-05-06",
+                        "details" : "Front desk needs another coat of stain"
+                    },
+                    {
+                        "entryDate" : "2021-05-07",
+                        "details" : "Front desk needs another coat of stain"
+                    },
+                    {
+                        "entryDate" : "2021-05-08",
+                        "details" : "Front desk needs another coat of stain"
+                    }
+                ]
+    },
+    {
+      "projectNumber" : 2021002,
+      "renovationArea" : "Main Entrance",
+      "imageName": "main-entrance",
+      "dueDate" : "2021-05-30",
+      "lastProgressUpdate" : null,
+      "workQuality" : "N/A",
+      "isFlagged": true,
+      "punchList" : [
+          {
+              "task" : "Replace front door",
+              "status" : "Not Started"
+          },
+          {
+              "task" : "Install security cameras",
+              "status" : "Not Started"
+          }
+      ],
+      "budgetAmountAllocated" : 10000,
+      "budgetSpentToDate" : 0,
+      "inspectionLog" : []
+    }
+ ]
